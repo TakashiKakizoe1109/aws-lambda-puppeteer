@@ -1,0 +1,15 @@
+{
+  "name": "aws-lambda-puppeteer",
+  "version": "0.0.0",
+  "description": "The base project that runs Puppeteer with container-type Lambda.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TakashiKakizoe <takashikakizoe.1109@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^10.1.0"
+  }
+}
